@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "wrangler publish"
+    "deploy": "wrangler publish",
+    "build": "node build.js"  // またはあなたのプロジェクトに合わせたビルドコマンド
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.21.0"
