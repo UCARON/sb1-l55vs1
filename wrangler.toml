@@ -5,6 +5,3 @@ compatibility_date = "2023-05-18"
 [vars]
 SUPABASE_URL = "YOUR_SUPABASE_PROJECT_URL"
 SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY"
-
-# Cloudflare Pages用の設定
-pages_build_output_dir = "./dist"  # ここはビルド出力ディレクトリを指定
