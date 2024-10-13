@@ -12,4 +12,8 @@
   "devDependencies": {
     "wrangler": "^2.20.0"
   }
+  "scripts": {
+  "build": "mkdir -p dist && cp src/index.js dist/index.js"
+}
+
 }
