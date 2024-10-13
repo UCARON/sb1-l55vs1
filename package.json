@@ -1,0 +1,14 @@
+{
+  "name": "puzzle-game-server",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.21.0"
+  },
+  "devDependencies": {
+    "wrangler": "^2.20.0"
+  }
+}
