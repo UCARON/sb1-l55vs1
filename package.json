@@ -2,9 +2,9 @@
   "name": "puzzle-game-server",
   "private": true,
   "scripts": {
-    "dev": "wrangler dev",  // 開発時のデバッグ用
-    "deploy": "wrangler publish",  // デプロイ用
-    "build": "mkdir -p dist && cp src/index.js dist/index.js"  // ビルド用: src/index.js を dist にコピー
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish", 
+    "build": "mkdir -p dist && cp src/index.js dist/index.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.21.0"
