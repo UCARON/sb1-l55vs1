@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler publish",
-    "build": "node build.js"  // またはあなたのプロジェクトに合わせたビルドコマンド
+    "build": "echo 'No build required'" // ビルドが不要な場合のダミースクリプト
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.21.0"
