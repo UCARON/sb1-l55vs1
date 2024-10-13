@@ -1,1 +1,4 @@
 node_modules
+git add dist/index.js
+git commit -m "Add built index.js file"
+git push
